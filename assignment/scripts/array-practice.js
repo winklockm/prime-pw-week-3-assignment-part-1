@@ -101,3 +101,5 @@ console.log('My favorite foods in reverse alphabetical order are', foodArray.rev
 //     Then log the new array.
 //     It should look something like:
 //     ['pizza', 'pasta', 'fish', 'cat', 'bird', 'dog']
+let masterArray = (foodArray + ',' + animalArray);
+console.log(masterArray);
